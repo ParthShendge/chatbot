@@ -80,6 +80,10 @@ input, textarea, button{
   line-height: 1.5rem;
   padding: 1rem 5%;
   transition: 0.3s ease-out;
+  scrollbar-width: none;
+}
+.search-bar-input::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
 }
 .action-btn-container *{
   display: flex;
